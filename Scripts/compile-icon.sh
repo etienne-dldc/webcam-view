@@ -19,7 +19,7 @@ APP="${1:?usage: compile-icon.sh <path-to-.app>}"
 # actool lives inside Xcode.app. Prefer the active developer dir (xcrun), but
 # also try the well-known path so we don't require `sudo xcode-select -s` if
 # Xcode is installed but not the active developer directory.
-ACTOOL="$(xcrun -q --find actool 2>/dev/null)" || true
+ACTOOL="$(xcrun --find actool 2>/dev/null)" || true
 if [ -z "$ACTOOL" ] && [ -x "/Applications/Xcode.app/Contents/Developer/usr/bin/actool" ]; then
     ACTOOL="/Applications/Xcode.app/Contents/Developer/usr/bin/actool"
 fi
