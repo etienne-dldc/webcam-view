@@ -14,6 +14,8 @@
     <string>WebcamView</string>
     <key>CFBundleDisplayName</key>
     <string>WebcamView</string>
+    <key>CFBundleIconFile</key>
+    <string>WebcamView</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>

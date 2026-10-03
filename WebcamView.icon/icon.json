@@ -1,0 +1,76 @@
+{
+  "fill" : {
+    "solid" : "display-p3:0.00000,0.94828,0.90436,1.00000"
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "fill" : {
+            "linear-gradient" : [
+              "display-p3:0.18618,0.44852,0.79027,1.00000",
+              "display-p3:0.42132,0.76424,0.29406,1.00000"
+            ],
+            "orientation" : {
+              "start" : {
+                "x" : 0,
+                "y" : 0
+              },
+              "stop" : {
+                "x" : 1,
+                "y" : 1
+              }
+            }
+          },
+          "image-name" : "user-round.svg",
+          "name" : "user-round",
+          "position" : {
+            "scale" : 1.1,
+            "translation-in-points" : [
+              0.009219653989021026,
+              -20
+            ]
+          }
+        },
+        {
+          "fill-specializations" : [
+            {
+              "value" : {
+                "solid" : "display-p3:0.98380,0.98783,0.98814,0.29870"
+              }
+            },
+            {
+              "appearance" : "dark",
+              "value" : {
+                "solid" : "display-p3:0.04598,0.10710,0.19854,0.36738"
+              }
+            }
+          ],
+          "glass" : true,
+          "image-name" : "circle.svg",
+          "name" : "circle",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.3
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "squares" : [
+      "macOS"
+    ]
+  }
+}
